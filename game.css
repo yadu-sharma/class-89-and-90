@@ -1,0 +1,55 @@
+body
+{
+	background: url('https://img.freepik.com/free-vector/scientific-formulas-chalkboard_23-2148494010.jpg?w=740&t=st=1687435819~exp=1687436419~hmac=ebf880dee46f682d36bff12c6a0c097c5271e12a0ec988')
+}
+
+	.l_div1 , .l_div2
+	{
+		background: rgb(0, 141, 49);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#h2 ,#h1 {
+	color: rgb(243, 60, 60);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+	
+
+
+}
+#head3  {
+
+	color: rgb(243, 60, 60);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#head4 , #head5 {
+
+	color:rgb(243, 60, 60);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}

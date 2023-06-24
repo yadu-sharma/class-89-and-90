@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game_page.js"></script>
+<script type ="text/javascript"></script>
+
+</head>
+<body>
+	<h4 id="player1_name1"></h4><span id="player1_score1"></span>
+	<br>
+	<h4 id="player2_name1"></h4><span id="player2_score1"></span>
+	
+	<center>
+<h3 id="head3">Players</h3>
+<br>
+<h4 id="head4"></h4>
+<script>
+    document.getElementById("head4").innerHTML = localStorage.getItem("player1_name") ;
+  </script>
+	
+<h4 id="head5"></h4>
+<script>
+    document.getElementById("head5").innerHTML = localStorage.getItem("player2_name") ;
+  </script>
+<br>
+<div class="col-lg-4 col-sm-8 col-xs-11 col-md-4 l_div1">
+	
+</div>
+<div class="col-lg-4 col-sm-8 col-xs-11 col-md-4 l_div1">
+	<h3>Number-1</h3>
+	
+	<input type="text" id="number1_input" class="form-control" placeholder="Enter number 1">
+	<br>
+</div>
+<br>
+<div class="col-lg-4 col-sm-8 col-xs-11 col-md-4 l_div2">
+	<h3>Number-2</h3>
+	<label></label>
+	<input type="text" id="number2_input" class="form-control" placeholder="Enter number 2">
+	<br>
+</div>
+<br>
+
+<button style="width:30%" class="btn btn-success" onclick="check()">check</button>
+	</center>
+	<p style="background-image: url('https://img.freepik.com/free-vector/scientific-formulas-chalkboard_23-2148494010.jpg?w=740&t=st=1687435819~exp=1687436419~hmac=ebf880dee46f682d36bff12c6a0c097c5271e12a0ec988');"></p>
+
+</body>
+</html>
